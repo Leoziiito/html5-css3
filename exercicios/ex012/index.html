@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <p>Primeiramente, é importante ressaltar que, para colocar vídeos nas páginas web, é necessário diminuir ao máximo o tamanho do vídeo, para que a página não fique muito pesada.</p>
+    <p>O Guanabara mostrou que podemos fazer isso no HandBreak, que não funcionou pra mim, acho que é por causa do meu pc ser MAC.</p>
+    <p>Outra coisa que ele sugeriu foi converter o vídeo para a extensão ogv, o que eu tbm não fiz pq eu fiquei com preguiça, mas é bom fazer pq o MP4 nem sempre abre em todo navegador.</p>
+
+    <p>A dica é colocar todos os formatos de vídeo, pois se um não abrir em algum navegador, o outro abre.</p>
+    
+    <video width="500px" poster="./midia/capa.png" controls autoplay>
+        <source src="./midia/medusas-menor.mp4" type="video/mp4">
+        <source src="./midia/medusas-menor.webm" type="video/webm">
+        <source src="./midia/medusas-menor.ogv" type="video/ogv">
+        <p>Seu navegador não possui suporte para vídeo.</p>
+    </video>
+
+    <h1>Inserindo videos do YouTOBA</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/64e2oJteP7A?si=XNvBSn6G5p0x-Js2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    
+</body>
+</html>
