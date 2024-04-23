@@ -64,6 +64,21 @@ section{
         background-attachment: fixed;
     }
     
+    section#flor {
+        background-image: url('./imagens/background001.jpg');
+        background-size: cover;
+    }
+
+    section#caderno {
+        background-image: url('./imagens/background002.jpg');
+        background-size: cover; 
+    }
+
+    section#caderno > p {
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 30px;
+        width: 600px;
+    }
 
 
 footer{
