@@ -14,19 +14,26 @@
             font-size: 1em;
             font-weight: bold;
             padding: 10px;
-            background-color: lightgrey;
+            background-color: rgb(135, 135, 135);
             border: 1px solid black;
         }
  
         table{
             border-collapse: collapse;
             width: 500px;
+            position: relative;
           
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(135, 135, 135);
         }
 
         thead, tfoot {
             text-align: center;
-            background-color: rgb(197, 189, 189);
+            background-color: rgb(135, 135, 135);
             font-weight: bold;
 
         }
