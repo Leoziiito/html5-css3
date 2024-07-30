@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+
+
+header, header > nav {
+    flex-flow: column nowrap;
+}
+
+header > h1 {
+    flex-basis: 50px; /* Quando vc muda a orientação pra Column o flex basis se refere à medida nesta direção  */
+
+}
+
+header > nav > a {
+    width: 90vw;
+}
