@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    width: 100vw;
+    height: 100vh;
+}
+
+p  {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 1.2em;
+}
+
+header, section.normal {
+    padding: 20px;
+
+    
+
+}
+
+article.media-text {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+
+    
+}
+
+    article.media-text > div.text {
+        flex-direction: row wrap;
+        flex: 1 1 500px;
+        
+    }
+
+    article.media-text > div.media {
+        flex-direction: row wrap;
+        justify-content:center;
+
+
+        flex:1 0 500px;
+        
+    }
+
+    div.media > img {
+        display: block;
+        /* float: right;
+            seria uma opção!       
+        */
+        margin: auto;
+        padding: 10px;
+        width: 300px;
+        /* Para alinharmos as midias dentro de uma div, temos que atribuir as propriedades de alinhamento pela imagem. */
+    }
+
+article.text-media {
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    
+}
+
+    article.text-media > div.text {
+        flex-flow: row wrap;
+        flex: 1 1 500px;
+        
+        
+    }
+
+    article.text-media > div.media {
+        flex-flow: row wrap;
+        flex: 1 0 500px; 
+        
+        
+    }
+
+    div.media > iframe {
+        display: block;
+        margin: auto; 
+        width: 90%;
+        /* Mesma propriedade de alinhamento aplicada à imagem se aplica ao video, puxando pela tag <iframe>*/
+    }
+
+section.flex-content {
+    padding: 20px;
+    background-color: rgb(176, 165, 165);
+    display: flex;
+    flex-flow: column nowrap;
+
+   
+}
